@@ -14,31 +14,28 @@
     input[type=submit]{
         background-color:#4CAF50;
         border:none;
-        color:white;
+        color:black;
         padding:14px 32px;
         text-decoration:none;
-        margin:0px 2px;
-        cursor: pointer;
-    }
-    a{
-        background-color:#4CAF50;
-        border:none;
-        color:white;
-        padding:13px 32px;
-        text-decoration:none;
+        margin:4px 2px;
         cursor: pointer;
     }
     </style>
 </head>
 <body>
     <p>Login System<p>
-    <form method="post" action="ceklogin.php">
+    <form method="post" action="cekregistrasi.php">
+        <label>Nama Depan</label><br>
+        <input class="inputan" type="text" name="namadpn"><br>
+        <label>Nama Belakang</label><br>
+        <input class="inputan" type="text" name="namablk"><br>
+        <label>Email</label><br>
+        <input class="inputan" type="text" name="email"><br>
         <label>Username</label><br>
         <input class="inputan" type="text" name="username"><br>
         <label>Password</label><br>
         <input class="inputan" type="password" name="password"><br>
-        <input type="submit" name="tombolsubmit" value="Login">
-        <a href="registrasi.php" class="tombol" type="submit" name="tombolsubmit">Daftar</a>
+        <input type="submit" name="tombolsubmit" value="Daftar"><br>
     </form>
 </body>
 </html>
